@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="28.461966"
+   height="16.103954"
+   id="svg5541"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="flag-france.svg"
+   inkscape:export-filename="/home/john/workspace/new_picta-it/assets/images/flag-france.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs5543" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="26.373836"
+     inkscape:cy="-49.090877"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="464"
+     inkscape:window-height="420"
+     inkscape:window-x="1922"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5546">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-348.62616,-467.16735)">
+    <g
+       id="g7767"
+       transform="matrix(0.54040939,0,0,0.54040939,-211.05365,442.58274)">
+      <rect
+         ry="0.48225701"
+         y="45.492615"
+         x="1035.6589"
+         height="29.7995"
+         width="17.67767"
+         id="rect7580"
+         style="fill:#0258a3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         ry="0.48225701"
+         y="45.492569"
+         x="1053.1538"
+         height="29.7995"
+         width="17.67767"
+         id="rect7580-1"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         ry="0.48225701"
+         y="45.492569"
+         x="1070.6487"
+         height="29.7995"
+         width="17.67767"
+         id="rect7580-1-1"
+         style="fill:#eb3e38;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+  </g>
+</svg>

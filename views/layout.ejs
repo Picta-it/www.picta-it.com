@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Picta-it - Solutions et Formations informatiques</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="Picta-it - Consultant en informatique.">
+    <meta name="keywords" content="informatique, node.js, nodejs, service, Poitiers,">
+    <meta name="author" content="John Guignard">
+    <link type="image/x-icon" rel="icon" href="images/favicon.ico">
+    <!--    <link type="image/x-icon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABaklEQVQ4jZ3RP0iVARQF8INEKb7vXgShIRqFxqbWQnCoLcHhNbx3D7YUtNja4NjkYJviEIpLU0uDRC5CDvbHwUHtD/bed25ghOQ/aHIQxM3P7+7nx73nAgAUtvKj2X8ddUf0jlg8rhX+GehNWoo2XwvohA0p/Chpq7WAMnwk6R9E+1MLUBQTZbsYT/p+yb6bALB9H9eqA7QpRXFL9G7ZtiYAJO3bziMfqAq83hjDVYUviz6rZjEo2q6imKgEZPjc6Sm2INq7ZOOu6AcZ9rEMH1H42gWATQNAGfZMYZuivRD9V9L/KXxH9ENFY1S0pQx70GVjWLSppL1N2itk+EsA6Eb/7aTvif5GtMUMX1f4X4XPJO2/6F9E2xL9axn2dGMMDQDA8j1cAU6bF+046d+zXTzPtrWS/qTT6rsh+udKn0nab4UfdVp2ZxLomQR6KhV5rtD3ou2erXfZEX1W9E+1wgCgVvFQYQuXyZwAhhKmBwDYjpQAAAAASUVORK5CYII=" id="page_favicon">
+    <link type="image/x-icon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZ0lEQVQ4jZ2RO2uVURBFBxG1sBEEC1GUmMs9sxsrWy9CiigqJpzZntlgo42CTWz9AVYptDNYiCGNlU0KEW0ELXwkpaKFD1CIiPiIYGVxA3by5VswTLUXmxkzMwP1+OCptsf6gtCHwnahV/jAaLQD1CcP3eklKLM5CWrdqaf9BLVNgXrooS+9BGCbKzXPg/oxcfrsPjOzQ9PT27sLIucHs20I6iOitbE03+w/kbs6NsjbqHUbqEdgLgxOtt1OrYFtrpPAQ7fMzJy56NTysLajoH469aTUNoXQs/8LqOsb+7IzX5XIq2C+99B3UO8Q+jVkziDyfok8jtqOIXLeQ/ececMQec3MDDUPg/nNQ3cRWgJzFdRXhG6C+oPQS6deg1opbJdQ685xhdFoq9n48k79BvXWQ1cK81ypeXFQ615nvuj0GVCfQa2j5hEz27Ix3XHqgVNr/+ptEjAXnHreK2xmVqrOOHNxM5m/rBB7eQmkG9oAAAAASUVORK5CYII=" id="page_favicon">-->
+    <link type="image/x-icon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACDElEQVQ4ja2SS2gTURSGr4IguFMEN64MYjOgiyKNiK+FmpUllemNM7WLxEfU0MSQbpqS+EBBEB9YUtNWxUdAKOhWS8rMTUUNDRSlXSihk869MwmKUle++d10bGtiKOKBA5cD38c9nJ+Q/1FSu9pXbw5g+dIEVK1uaPWvXzjTOHcxbk/lhTjdGJbl1RJVZt1UkZ2ZLsSePLc+MG6BcQs6twaLxeKKuoKNlG6RqPpRokqaEEJ0bh9lvPLNgedb6Dkh1tQImqjid1PlgZuqL3TTvlILzvcYr5RY2W5aJHC3Kz3bT4QPtASOfWbcwtmHw3j8evKvEsYrsxq3vb8FnmBoIGeUJ5s7A9BNAV9PEuG+fowaM9BNUV8i7B+M2xFCCCHBy1ffMG5hZyiM4YlX2BEKY/epCCLpDGKZoRo4N13GrfwzpEdGv8YHb7eSzf6OFDPtu75EEr33s9h2JIRdJ7vQ3BmAJ3gcvkQK+6JxyMlzONh7BtH+AWQL4+/HOG9xrrCVEELaU+eZN9aN/dE4uofuIHTtBrrSGbQlUsi+HMe95wXnFxPMshZlZi4Ph7ySv+Pn4YuXvo+UDOSmy9BmOJ68LS1c4dHTanVV3Ty4ZHmtm6qf9kZi1xm3+J+7501xAcCyRqEkElUrkiy7NOPdOsYrhTn4C+O22hB0ahNV2py3ZhgrmWnf1ITwLAn+1/oF5HiPh6M1J4kAAAAASUVORK5CYII=" id="page_favicon">
+
+    <!--
+        Stylesheets and Preprocessors
+        ==============================
+
+        You can always bring in CSS files manually with `<link>` tags, or asynchronously
+        using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
+        of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+        By default, stylesheets from your `assets/styles` folder are included
+        here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
+        are supported. In production, your styles will be minified and concatenated into
+        a single file.
+
+        To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Change the order of your CSS files
+            + Import stylesheets from other directories
+            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+    -->
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/project_bundle.css">
+    <!--STYLES END-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs-inline" href="/">
+            <div style="transition: all 1s ease 0s;">
+              Picta-it
+            </div>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-left visible-xs-inline">
+            <li class="flags">
+              <a href="#"><img src="images/flag-spain-64x.png" alt="Spanish"></a>
+              <a href="#"><img src="images/flag-france-64x.png" alt="French"></a>
+              <a href="#"><img src="images/flag-united-kingdom-64x.png" alt="English"></a>
+            </li>
+            <li><a href="/training">Formations</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/technologies">Technologies</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/Picta-it"><img class="icon" src="images/icon-github.png">GitHub</a></li>
+            <li><a href="/projects"><img class="icon" src="images/icon-git.png">Projets</a></li>
+            <li><a href="/tutorials"><img class="icon" src="images/icon-tutos.png">Tutoriels</a></li>
+            <li><a href="/contact"><img class="icon" src="images/icon-phone.png">Contact</a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <nav class="navbar navbar-second hidden-xs" role="navigation">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/training">Formations</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/technologies">Technologies</a></li>
+      </ul>
+    </nav>
+
+    <div class="logo hidden-xs">
+      <img src="images/logo-picta-it.png" alt="Picta-it-logo" />
+      <hr>
+      <div class="flags">
+        <a href="#"><img src="images/flag-spain.png" alt="Spanish" /></a>
+        <a href="#"><img src="images/flag-france.png" alt="French" /></a>
+        <a href="#"><img src="images/flag-united-kingdom.png" alt="English" /></a>
+      </div>
+      <div class="presentation">
+        Solutions et Formations informatiques
+      </div>
+    </div>
+
+    <%- body %>
+
+
+
+    <!--
+        Client-side Templates
+        ========================
+
+        HTML templates are important prerequisites of modern, rich client applications.
+        To work their magic, frameworks like Backbone, Angular, Ember, and Knockout require
+        that you load these templates client-side.
+
+        By default, your Gruntfile is configured to automatically load and precompile
+        client-side JST templates in your `assets/templates` folder, then
+        include them here automatically (between TEMPLATES and TEMPLATES END).
+
+        To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Import templates from other directories
+            + Use a different template engine (handlebars, jade, dust, etc.)
+            + Internationalize your client-side templates using a server-side
+              stringfile before they're served.
+    -->
+
+    <!--TEMPLATES-->
+    
+    <!--TEMPLATES END-->
+
+
+    <!--
+
+      Client-side Javascript
+      ========================
+
+      You can always bring in JS files manually with `script` tags, or asynchronously
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
+      take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+      By default, files in your `assets/js` folder are included here
+      automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
+      CoffeeScript (.coffee) are supported. In production, your scripts will be minified
+      and concatenated into a single file.
+
+      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+      For example, here are a few things you could do:
+
+          + Change the order of your scripts
+          + Import scripts from other directories
+          + Use a different preprocessor, like TypeScript
+
+    -->
+
+    <!--SCRIPTS-->
+    <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/dependencies/angular.js"></script>
+    <script src="/js/dependencies/jquery.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <!--SCRIPTS END-->
+  </body>
+</html>
