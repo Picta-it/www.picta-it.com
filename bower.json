@@ -1,0 +1,15 @@
+{
+  "name": "www.picta-it.com",
+  "version": "0.0.1",
+  "authors": [
+    "John Guignard <john.guignard@gmail.com>"
+  ],
+  "description": "Picta-it Website",
+  "license": "MIT",
+  "homepage": "http://www.picta-it.com",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.8",
+    "bootstrap": "~3.3.1"
+  }
+}
