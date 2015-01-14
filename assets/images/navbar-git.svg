@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="30"
-   height="30"
+   width="32.000271"
+   height="32.000034"
    id="svg3770"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   inkscape:export-filename="/home/john/workspace/new_picta-it/assets/images/icon-git.png"
+   inkscape:export-filename="/home/john/workspace/new_picta-it/assets/images/navbar-git.png"
    inkscape:export-xdpi="150"
    inkscape:export-ydpi="150"
-   sodipodi:docname="icon-git.svg">
+   sodipodi:docname="navbar-git.svg">
   <defs
      id="defs3772" />
   <sodipodi:namedview
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="-7.5674891"
-     inkscape:cy="14.479359"
+     inkscape:cx="5.4979343"
+     inkscape:cy="12.524859"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,8 +37,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1918"
-     inkscape:window-height="1030"
+     inkscape:window-width="1364"
+     inkscape:window-height="718"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -58,11 +58,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-383.12267,-515.25699)">
+     transform="translate(-370.05725,-506.25169)">
     <path
+       inkscape:connector-curvature="0"
        style="fill:#f2fbfc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 385.29304,528.67294 c -0.8794,0.87938 -0.90088,2.28856 -0.0213,3.16794 l 13.3735,13.37351 c 0.0144,0.0144 0.0278,0.0286 0.0425,0.0426 l 0.0213,-2.65768 0,-27.34232 c -0.0149,0.0142 -0.0279,0.0278 -0.0425,0.0426 -1.82832,1.84196 -12.46791,12.4152 -13.3735,13.37351 z m 17.15805,-8.7385 0,18.41248 9.20623,-9.20624 -9.20623,-9.20624 z"
-       id="rect11902-3-9"
-       inkscape:connector-curvature="0" />
+       d="m 387.68192,506.92752 c -0.90111,-0.9011 -2.35036,-0.9011 -3.25146,-1e-5 l -2.77082,2.77083 3.63593,3.63594 c 0.869,-0.28439 1.85856,-0.0806 2.54931,0.61016 0.69078,0.69077 0.89457,1.68033 0.6102,2.54934 l 3.56068,3.5607 c 0.8678,-0.28196 1.8599,-0.0793 2.54934,0.61016 0.97863,0.97864 0.97864,2.56534 0,3.54399 -0.97866,0.97863 -2.56535,0.97863 -3.54398,0 -0.72933,-0.72933 -0.91774,-1.7984 -0.56003,-2.69978 l -3.26398,-3.26398 0,8.70115 c 0.22701,0.11624 0.44102,0.26549 0.63107,0.45554 0.97864,0.97864 0.97864,2.56534 0,3.54398 -0.97864,0.97864 -2.56535,0.97864 -3.54398,0 -0.97865,-0.97864 -0.97866,-2.56534 0,-3.54398 0.23204,-0.23206 0.50145,-0.41297 0.7857,-0.53494 l 0,-8.85161 c -0.2788,-0.1221 -0.54107,-0.29867 -0.76899,-0.52659 -0.72933,-0.72933 -0.91772,-1.79838 -0.56001,-2.69978 l -3.58579,-3.58578 -9.41997,9.41998 c -0.9011,0.9011 -0.90526,2.35452 -0.004,3.25563 l 13.69951,13.6995 c 0.90108,0.90109 2.35453,0.89692 3.25561,-0.004 l 13.69545,-13.69536 c 0.90109,-0.90109 0.90108,-2.35035 0,-3.25144 L 387.6816,506.92739 z"
+       id="rect11902" />
   </g>
 </svg>
