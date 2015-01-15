@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1116.0696"
-   height="212.98489"
+   width="834.46021"
+   height="173.47127"
    id="svg4129"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="563.97539"
-     inkscape:cy="104.25155"
+     inkscape:zoom="0.7"
+     inkscape:cx="510.16988"
+     inkscape:cy="107.89109"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,11 +37,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="464"
-     inkscape:window-height="420"
-     inkscape:window-x="94"
-     inkscape:window-y="53"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1364"
+     inkscape:window-height="718"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata4134">
     <rdf:RDF>
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,21 +58,33 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(183.07258,-425.80021)">
+     transform="translate(5.9724462,-534.50357)">
     <text
        sodipodi:linespacing="125%"
        id="text3798"
-       y="625.98511"
-       x="467.61945"
-       style="font-size:41.93940735px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2fbfc;fill-opacity:1;stroke:none;font-family:Sans"
+       y="698.15356"
+       x="471.40942"
+       style="font-size:32.17957306px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2fbfc;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
          id="tspan4292"
-         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#f2fbfc;fill-opacity:1;stroke:#2b575b;stroke-width:0.20969704;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Quark;-inkscape-font-specification:Quark Light"
-         y="625.98511"
-         x="467.61945"
+         style="font-size:49.10638428px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#f2fbfc;fill-opacity:1;stroke:#2b575b;stroke-width:0.16089787;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Quark;-inkscape-font-specification:Quark Light"
+         y="698.15356"
+         x="471.40942"
          sodipodi:role="line">Solutions et Formations Informatiques</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5355"
+       y="630.63031"
+       x="273.21301"
+       style="font-size:62.31954956px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2fbfc;fill-opacity:1;stroke:#f2fbfc;stroke-width:0.7732693;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:117.18495178px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f2fbfc;fill-opacity:1;stroke:#f2fbfc;stroke-width:0.7732693;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Mohave;-inkscape-font-specification:Mohave"
+         y="630.63031"
+         x="273.21301"
+         id="tspan5357"
+         sodipodi:role="line">PICTA-IT</tspan></text>
     <g
-       transform="matrix(2.5638832,0,0,2.5638833,-394.4327,225.70097)"
+       transform="matrix(1.6660758,0,0,1.6660758,-143.31957,408.86631)"
        id="g4446">
       <path
          style="fill:#f2fbfc;fill-opacity:1;stroke:#f7fdfd;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
