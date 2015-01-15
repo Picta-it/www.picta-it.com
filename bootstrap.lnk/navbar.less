@@ -29,28 +29,6 @@
   margin-right:     @navbar-icon-margin-right;
 }
 
-nav.navbar-second {
-  position: absolute;
-  left:     260px;
-  top:      89px;
-
-  background-color: #2b575b;
-  border-radius: 5px 0 0 5px;
-
-  width: 100%;
-
-  ul.navbar-nav {
-    font-size:    22px;
-    padding:      2px 5px;
-    text-align:   left;
-
-    > li > a {
-      color:        @navbar-default-color;
-      margin:       0px 20px;
-    }
-  }
-}
-
 
 // Navbar heading
 //
@@ -425,12 +403,7 @@ nav.navbar-second {
   z-index:      @zindex-navbar-default;
 }
 
-.navbar-second {
-  z-index:      @zindex-navbar-second;
-}
-
-.navbar-default,
-.navbar-second {
+.navbar-default {
   background-color: @navbar-default-bg;
   border-color: @navbar-default-border;
 
@@ -453,7 +426,7 @@ nav.navbar-second {
 
       &:hover,
       &:focus {
-        text-decoration: underline;
+        text-decoration: none;
         //color: @navbar-default-link-hover-color;
         //background-color: @navbar-default-link-hover-bg;
       }
