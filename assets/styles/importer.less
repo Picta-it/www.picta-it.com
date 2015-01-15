@@ -13,8 +13,572 @@
  * always omit, customize, or replace this behavior with SASS, SCSS,
  * or any other Grunt tasks you like.)
  */
- @import 'fonts/font-faces.less';
- @import 'logo.less';
+
+ /*
+ @media (min-width: @screen-lg) {
+ height:             516px;
+ width:              504px;
+}
+@media (max-width: @screen-lg) {
+height:             276px;
+width:              244px;
+}*/
+
+body {
+  margin-top:           -60px;
+}
+
+.navbar {
+  top:                  60px;
+
+  li a {
+    width:              180px;
+
+    &:hover {
+      text-decoration:  none;
+      p {
+        text-decoration:  underline;
+      }
+    }
+    p {
+      display:            inline-block;
+      vertical-align:     middle;
+      font-family:        'mohave';
+      color:              #f2fbfc;
+    }
+
+    .logo {
+      display:            inline-block;
+
+      height:             32px;
+      margin-right:       15px;
+
+      &.github {
+        width:              37px;
+        background-image:   url('/images/navbar-github.png');
+      }
+
+      &.tutos {
+        width:              34px;
+        background-image:   url('/images/navbar-tutos.png');
+      }
+
+      &.contact {
+        width:              25px;
+        background-image:   url('/images/navbar-contact.png');
+      }
+    }
+  }
+}
+
+.header {
+  position:           relative;
+  left:               0;
+  right:              0;
+  top:                0px;
+
+  width:              100%;
+  height:             510px;
+
+  .background {
+    position:           absolute;
+    left:               0;
+    right:              0;
+    top:                0;
+
+    width:              100%;
+    height:             100%;
+
+    margin:             0;
+    padding:            0;
+
+    background-color:   #2b575b;
+
+    .image {
+      z-index:            20;
+
+      position:           absolute;
+      right:              0;
+      // RESPONSIVE
+      bottom:             27px;
+
+      // RESPONSIVE
+      height:               276px;
+      width:                244px;
+
+      background-image:     url("/images/title-index-bg.png");
+      background-position:  right bottom;
+      background-repeat:    no-repeat;
+      background-size:      100% auto;
+    }
+  }
+
+  .action {
+    .title {
+      z-index:              30;
+
+      position:             absolute;
+      top:                  90px;
+      left:                 0;
+      right:                0;
+
+      height:               130px;
+      width:                100%;
+
+      background-image:     url("/images/title-index.png");
+      background-position:  center bottom;
+      background-repeat:    no-repeat;
+      background-size:      auto 100%;
+    }
+
+    .form {
+      z-index:              30;
+
+      position:             absolute;
+      top:                  260px;
+      left:                 0;
+      right:                0;
+
+      height:               130px;
+      width:                100%;
+
+      form {
+        margin:               0 auto;
+
+        width:                330px;
+
+        .input-group-addon {
+          vertical-align:          top;
+        }
+      }
+    }
+
+    .link {
+      z-index:              10;
+
+      position:             absolute;
+      bottom:               0;
+      left:                 0;
+      right:                0;
+
+      height:               40px;
+
+      background-color:     #f2fbfc;
+
+      text-align:           center;
+
+      a {
+        color:                #2b575b;
+        font-size:            28px;
+        margin:               0 20px;
+      }
+    }
+  }
+}
+
+.experience {
+  background-color:         #dcecee;
+  padding:                  30px 0;
+
+  .col-xs-10 {
+
+    .logo {
+      display:                  inline-block;
+      border-radius:            10px;
+      margin:                   6px;
+      width:                    150px;
+      height:                   150px;
+
+      background-color:         rgba(242, 251, 252, 0);
+      background-position:      center;
+      background-repeat:        no-repeat;
+      background-size:          90% auto;
+
+      &.macif {
+        background-image:     url("/images/logo-macif.png");
+      }
+
+      &.maif {
+        background-image:     url("/images/logo-maif.png");
+      }
+
+      &.etat-geneve {
+        background-image:     url("/images/logo-etat-geneve.png");
+      }
+
+      &.gucci {
+        background-image:     url("/images/logo-gucci.png");
+      }
+
+      &.express {
+        background-image:     url("/images/logo-express.png");
+      }
+
+
+      transition:                   all 0.6s ease 0s;
+      &:hover {
+        box-shadow:                   2px 3px 0 0 #cfd9d9;
+        background-color:             rgba(242, 251, 252, 1);
+        transition:                   all 1s ease 0s;
+        /*
+        animation:                    flash-light 1.2s ease-in 0s;
+        -moz-animation-fill-mode:     forwards;
+        -webkit-animation-fill-mode:  forwards;
+        animation-fill-mode:          forwards;
+        */
+      }
+    }
+  }
+}
+
+.together {
+  padding:              0px;
+
+  > .col-xs-6 {
+    padding:                  0 30px;
+
+    > .col-xs-12 {
+      margin:                   40px 0;
+      display:                  inline-block;
+      background-color:         #f2fbfc;
+      border-radius:            6px;
+      border:                   1px solid #d2c7c0;
+    }
+
+    .image {
+      width:                    567px;
+      height:                   338px;
+
+      background-size:          70% auto;
+      background-repeat:        no-repeat;
+      background-position:      center;
+    }
+
+    &.you {
+      .image {
+        background-image:             url('/images/responsive.png');
+      }
+    }
+
+    &.your-tools {
+      > .col-xs-12 {
+        background-color:         #fdfbfb;
+      }
+
+      .image .content {
+        margin:                       20px auto;
+
+        width:                        338px;
+        height:                       338px;
+
+        background-image:
+          url('/images/logo-angular.png'),
+          url('/images/logo-css3.png'),
+          url('/images/logo-mongodb.png'),
+          url('/images/logo-android.png'),
+          url('/images/logo-html5.png');
+        background-size:              110px auto;
+        background-position:
+          203px 80px,
+          158px 80px,
+          113px 80px,
+          68px 80px,
+          23px 80px;
+
+        background-repeat:            no-repeat;
+
+        transition:                   all 0.6s linear 0s;
+        &:hover {
+          animation:                    tools-animation 0.8s ease 0s;
+          -moz-animation-fill-mode:     forwards;
+          -webkit-animation-fill-mode:  forwards;
+          animation-fill-mode:          forwards;
+        }
+      }
+    }
+  }
+
+  > .col-xs-12 {
+    &.independant {
+      padding:                  30px 0;
+      background-color:         #e5f4f4;
+
+      margin:                   0px auto;
+      .image {
+        height:                   170px;
+
+        margin:                   30px 0;
+
+        .content {
+          width:                    184px;
+          height:                   165px;
+
+          margin:                   0 auto;
+
+          background-size:          auto 160px, auto 60px;
+          background-repeat:        no-repeat;
+          background-position:
+          25px 0,
+          18px 100px;
+          background-image:         url('/images/rocket.png'), url('/images/rocket-flame.png');
+
+          transition:                   all 0.2s linear 0s;
+          &:hover {
+            animation:                    rocket-flame 4.5s ease 0s;
+            animation-iteration-count:    infinite;
+            animation-direction:          alternate;
+          }
+        }
+      }
+    }
+  }
+}
+
+.technologies {
+  padding:                      40px 0;
+
+  .title h1 {
+    font-size:                    40px;
+  }
+
+  .technology {
+    h2.title  {
+      display:                    inline-block;
+      border-radius:              5px;
+      padding:                    3px 20px;
+      background-color:           rgb(43, 87, 91);
+      color:                      rgb(248, 252, 252);
+    }
+    .text {
+      margin-top:                 20px;
+      font-size:                  28px;
+    }
+  }
+}
+
+.sitemap {
+  padding:                    30px 0;
+
+  background-color:           rgb(54, 54, 54);
+  background-image:           url("/images/footer-bg-grayscale.png");
+  background-position:        right bottom;
+  background-repeat:          no-repeat;
+  background-size:            280px auto;
+  //height:                     460px;
+
+  color:                      #f8fcfc;
+
+  .email {
+    padding-right:              70px;
+    font-size:                  30px;
+
+    color:                      #dce4e5;
+  }
+
+  .icon {
+    width:                      200px;
+    height:                     56px;
+
+    padding-left:               140px;
+
+    background-image:           url("/images/logo-picta-it-white.png");
+    background-repeat:          no-repeat;
+    background-size:            auto 100%;
+    font-size:                  50px;
+    font-family:                @font-family-sans-serif;
+
+  }
+
+  .categories {
+    margin-top:                 30px;
+    margin-bottom:              130px;
+
+    h3 {
+      font-family:                @font-family-sans-serif;
+    }
+    ul {
+      padding-left:               20px;
+      li {
+        font-family:                @font-family-serif;
+        font-size:                  24px;
+      }
+    }
+  }
+}
+
+@keyframes rocket-flame {
+  from {
+    background-position:
+      25px 0,
+      18px 100px;
+    background-size:
+      auto 160px,
+      auto 60px;
+  }
+
+  3% {
+    background-position:
+    25px 0,
+    18px 100px;
+    background-size:
+    auto 160px,
+    auto 60px;
+  }
+
+  18% {
+    background-position:
+      25px 0,
+      65px 109px;
+    background-size:
+      auto 160px,
+      auto 5px;
+  }
+
+  23% {
+    background-position:
+    25px 0,
+    18px 100px;
+    background-size:
+    auto 160px,
+    auto 60px;
+  }
+
+  38% {
+    background-position:
+    25px 0,
+    65px 109px;
+    background-size:
+    auto 160px,
+    auto 5px;
+  }
+
+  44% {
+    background-position:
+    25px 0,
+    18px 100px;
+    background-size:
+    auto 160px,
+    auto 60px;
+  }
+
+  54% {
+    background-position:
+    25px 0,
+    65px 109px;
+    background-size:
+    auto 160px,
+    auto 5px;
+  }
+
+  68% {
+    background-position:
+    25px 0,
+    18px 100px;
+    background-size:
+    auto 160px,
+    auto 60px;
+  }
+
+  78% {
+    background-position:
+    25px 0,
+    65px 109px;
+    background-size:
+    auto 160px,
+    auto 5px;
+  }
+
+  96% {
+    background-position:
+    25px 0,
+    18px 100px;
+    background-size:
+    auto 160px,
+    auto 60px;
+  }
+
+  to {
+    background-position:
+      25px 0,
+      18px 100px;
+    background-size:
+      auto 160px,
+      auto 60px;
+  }
+}
+
+
+@keyframes flash-light {
+  from {
+    background-color:             #f2fbfc;
+  }
+
+  5% {
+    background-color:             darken(#f2fbfc, 2%);
+  }
+
+  10% {
+    background-color:             lighten(#f2fbfc, 3%);
+  }
+
+  15% {
+    background-color:             darken(#f2fbfc, 1%);
+  }
+
+  20% {
+    background-color:             lighten(#f2fbfc, 2%);
+  }
+
+  to {
+    background-color:             lighten(#f2fbfc, 5%);
+  }
+}
+
+
+@keyframes tools-animation{
+  from {
+    background-image:
+      url('/images/logo-angular.png'),
+      url('/images/logo-css3.png'),
+      url('/images/logo-mongodb.png'),
+      url('/images/logo-android.png'),
+      url('/images/logo-html5.png');
+    background-position:
+      203px 80px,
+      158px 80px,
+      113px 80px,
+      68px 80px,
+      23px 80px;
+  }
+
+  to {
+    background-image:
+      url('/images/logo-angular.png'),
+      url('/images/logo-css3.png'),
+      url('/images/logo-mongodb.png'),
+      url('/images/logo-android.png'),
+      url('/images/logo-html5.png');
+    background-position:
+      114px 181px,
+      0px 112px,
+      43px 0px,
+      185px 0px,
+      228px 112px;
+  }
+}
+
+.bottom-space {
+  height:                   50px;
+}
+
+p {
+  font-family:              'quark';
+  font-size:                20px;
+  color:                    #081314;
+}
+
+@import 'fonts/font-faces.less';
+@import 'logo.less';
 
 
 // For example:
